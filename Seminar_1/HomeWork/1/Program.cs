@@ -11,11 +11,16 @@ int num2 = Convert.ToInt32(Console.ReadLine());
 
 if (num1 > num2) 
 {
-    Console.Write("max = ");
+    Console.Write("Большее число = ");
     Console.WriteLine(num1);
+    Console.Write("Меньшее число = ");
+    Console.WriteLine(num2);
 }
+
 else
 {
-    Console.Write("max = ");
+    Console.Write("Большее число = ");
     Console.WriteLine(num2);
+    Console.Write("Меньшее число = ");
+    Console.WriteLine(num1);
 }
