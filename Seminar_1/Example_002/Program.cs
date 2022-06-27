@@ -1,8 +1,12 @@
 ﻿// Напишите программу, которая будет выдавать название дня недели по заданному номеру.
 
 int num = 0;
-Console.WriteLine("Введите число от 1 до 7: ");
-num = Convert.ToInt32(Console.ReadLine());
+
+while(num < 1 | num > 7)
+{
+    Console.WriteLine("Введите число от 1 до 7: ");
+    num = Convert.ToInt32(Console.ReadLine());
+}
 
 switch (num)
 {
