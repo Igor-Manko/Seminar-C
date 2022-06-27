@@ -2,3 +2,15 @@
 
 // 5 -> 2, 4
 // 8 -> 2, 4, 6, 8
+
+Console.WriteLine("Введети число максимальное число: ");
+int num = Convert.ToInt32(Console.ReadLine());
+
+for (int result = 1; result <= num; result++)
+{
+    if (result %2 == 0)
+    {
+       // Console.Write("Все четные числа до этого числа: ");
+        Console.Write(result + " ");
+    }
+}

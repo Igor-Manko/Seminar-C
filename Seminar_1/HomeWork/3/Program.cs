@@ -3,3 +3,15 @@
 // 4 -> да
 // -3 -> нет
 // 7 -> нет
+
+Console.WriteLine("Введете число: ");
+int num1 = Convert.ToInt32(Console.ReadLine());
+
+if (num1 %2 == 0) 
+{
+    Console.WriteLine("Вы ввели четное число!");
+}
+else 
+{
+    Console.WriteLine("Вы ввели не четное число!");
+}

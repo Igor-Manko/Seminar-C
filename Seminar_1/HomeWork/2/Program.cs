@@ -10,17 +10,17 @@ Console.WriteLine("Введите второе число: ");
 int num2 = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите третье число: ");
 int num3 = Convert.ToInt32(Console.ReadLine());
+
 int max = num1;
 
 if (num2 > max)
 {
     max = num2;
-    Console.Write("Максимальное число: ");
-    Console.WriteLine(max);
 }
 if (num3 > max)
 {
     max = num3;
-    Console.Write("Максимальное число: ");
-    Console.WriteLine(max);
 }
+
+Console.Write("Максимальное число: ");
+Console.WriteLine(max);
