@@ -1,7 +1,7 @@
 ﻿// Напишите функцию, которая выводит случайное трёхзначное число и удаляет вторую цифру этого числа.
 
 int num = new Random().Next(100, 999);  // рандомное трехзначное число
-Console.WriteLine($"Сгенерировано случайное число : {num}");
+Console.WriteLine("Сгенерировано случайное число : " + num);
 
 int showNumber(int num1)
 {
@@ -9,10 +9,10 @@ int showNumber(int num1)
     int secondNum = num1 % 10;
     int newNum = firstNum * 10 + secondNum;
 
-    Console.WriteLine($"Первая цифра: {firstNum}");
-    Console.WriteLine($"Третья цифра: {secondNum}");
+    Console.WriteLine("Первая цифра: " + firstNum);
+    Console.WriteLine("Третья цифра: " + secondNum);
 
     return newNum;
 }
 
-Console.WriteLine($"Новое число без второй цифры: {showNumber(num)}");
+Console.WriteLine("Новое число без второй цифры: " + showNumber(num));
