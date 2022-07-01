@@ -13,7 +13,7 @@
 //     .............................
 
 
-Console.WriteLine("Введите номер четверти на координатной оси: ");
+Console.WriteLine("Введите номер четверти на координатной оси : ");
 int number = Convert.ToInt32(Console.ReadLine());
 
 string Quote(int a)
