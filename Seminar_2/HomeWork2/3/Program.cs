@@ -8,6 +8,24 @@
 Console.WriteLine("Введите цифру дня недели от 1 до 7 :");
 int num = Convert.ToInt32(Console.ReadLine());
 
+string numDay() {
+
+    if (num >= 1 & num <= 7) {
+        if ( num >= 1 & num <= 5) {
+            return "Сегодня не выходной!";
+        }
+        else {
+            return "Сегодня ВЫХОДНОЙ!";
+        }
+    } 
+    else {
+        return "Введите число от 1 до 7 !";
+    }
+}
+
+Console.WriteLine(numDay());
+
+/*
 switch (num)
 {
     case 1:{
@@ -39,3 +57,4 @@ switch (num)
         break;
     }
 }
+*/
