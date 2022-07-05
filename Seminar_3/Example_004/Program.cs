@@ -2,7 +2,7 @@
 //квадратов чисел от 1 до N.
 
 // Вариант 1
-
+/*
 Console.Write("Введите число : ");
 int number = Convert.ToInt32(Console.ReadLine());
 
@@ -17,7 +17,7 @@ while (index <= number) {
     Console.Write(Sqrt2(index) + " ");
     index++;
 }
-/*
+*/
 
 // Вариант 2
 
@@ -33,4 +33,4 @@ int squareTable(int n)
     Console.WriteLine();
     return n;
 }
-squareTable(number); */
+squareTable(number);
