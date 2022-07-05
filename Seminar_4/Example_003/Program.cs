@@ -2,12 +2,18 @@
 
 int myFactorial(int num)
 {
-    int fact = 1;
+    if (num == 0)
+    {
+        return 1;
+    }
+    return num * myFactorial(num - 1);
+
+    /* int fact = 1;
     for (int i = 1; i <= num; i++)
     {
         fact = fact * i;
     }
-    return fact;
+    return fact; */
 }
 
 Console.Write("Введите число для расчета факториала: ");
